@@ -27,13 +27,13 @@ body {
 	}
 
 	h1 {
-		font-size: $base-font-size + 22;
+		font-size: $base-font-size + 22 !important;
 		letter-spacing: 4px;
 		text-transform: uppercase;
 	}
 
 	h2 {
-		font-size: $base-font-size + 23;
+		font-size: $base-font-size + 23 !important
 	}
 
 	h3 {

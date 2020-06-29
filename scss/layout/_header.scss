@@ -1,5 +1,8 @@
 /***/
 /*==========  4.1 - Header styles  ==========*/
+.header-contact {
+    background-color: $color-bg-main !important;
+}
 
 header.header-image {
     position: relative;
@@ -11,6 +14,7 @@ header.header-image {
         position: absolute;
         z-index: 11;
         width: 100%;
+
 
         .header-content-inner {
 
@@ -40,7 +44,7 @@ header.header-image {
         .header-content {
             top: 20%;
 
-                .header-content-inner {
+            .header-content-inner {
 
                 h2 {
                     font-size: $base-font-size + 23;
@@ -92,33 +96,40 @@ header.header-image {
 @media(min-width:768px) {
 
     .header-contact {
-    	background-color: $color-background;
-    	height: $base-font-size * 2;
-    	line-height: $base-font-size * 2;
+        background-color: $color-background;
+        height: $base-font-size * 2;
+        line-height: $base-font-size * 2;
         font-size: $base-font-size;
 
         .phone {
             height: $base-font-size * 2;
         }
 
-    	a , .phone {
-    		color: $color-text-light;
-    	}
+        a,
+        .phone {
+            color: $color-text-light;
+        }
 
-    	a:hover {
-    		color: $color-text-light;
-    	}
+        a:hover {
+            color: $color-text-light;
+        }
 
         ul {
             margin-bottom: $margin-none;
 
-        	.fa-twitter, .fa-facebook, .fa-linkedin, .fa-google-plus {
-        		color: $color-primary;
-        	}
+            .fa-twitter,
+            .fa-facebook,
+            .fa-linkedin,
+            .fa-google-plus {
+                color: $color-primary;
+            }
 
-        	.fa-twitter:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-google-plus:hover {
-        		color: $color-primary-darker;
-        	}
+            .fa-twitter:hover,
+            .fa-facebook:hover,
+            .fa-linkedin:hover,
+            .fa-google-plus:hover {
+                color: $color-primary-darker;
+            }
         }
     }
 }
