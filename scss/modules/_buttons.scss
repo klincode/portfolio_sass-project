@@ -42,3 +42,10 @@
 	background-color: $color-link-hover;
 	border-color: $color-link-hover;
 }
+
+.carousel-caption .btn {
+	border: 1px solid red;
+	margin-top: -12px !important;
+	font-size: $base-font-size+8 !important;
+
+}

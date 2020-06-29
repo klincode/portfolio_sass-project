@@ -79,12 +79,12 @@
 /*==================================================
 =            1.0 - Settings and helpers            =
 ==================================================*/
-	@import "utilities/imports";
+@import "utilities/imports";
 /***/
-/*==========  1.2 - Fonts  ==========*/	
-	@import "fonts/font-awesome";
-	@import "utilities/settings";
-	@import "utilities/helpers";
+/*==========  1.2 - Fonts  ==========*/
+@import "fonts/font-awesome";
+@import "utilities/settings";
+@import "utilities/helpers";
 /*-----  End of 1.0 - Settings and helpers  ------*/
 /**
  *
@@ -109,7 +109,7 @@
 /*========================================
 =            2.0 - Frameworks            =
 ========================================*/
-	@import "frameworks/bootstrap";
+@import "frameworks/bootstrap";
 /*-----  End of 2.0 - Frameworks  ------*/
 /**
  *
@@ -134,9 +134,9 @@
 /*=========================================
 =            3.0 - Base styles            =
 =========================================*/
-	@import "base/normalize";
-	@import "base/base";
-	@import "base/ie8";
+@import "base/normalize";
+@import "base/base";
+@import "base/ie8";
 /*-----  End of 3.0 - Base styles  ------*/
 /**
  *
@@ -161,12 +161,14 @@
 /*=====================================
 =            4.0 - Layout            =
 =====================================*/
-	@import "layout/header";
-	@import "layout/container";
-	@import "layout/nav";
-	@import "layout/sidebar";
-	@import "layout/slider";
-	@import "layout/footer";
+@import "layout/header";
+@import "layout/container";
+@import "layout/services";
+@import "layout/carousel";
+@import "layout/nav";
+@import "layout/sidebar";
+@import "layout/slider";
+@import "layout/footer";
 /*-----  End of 4.0 - Layouts  ------*/
 /**
  *
@@ -191,12 +193,12 @@
 /*=====================================
 =            5.0 - Modules            =
 =====================================*/
-	@import "modules/buttons";
-	@import "modules/dividers";
-	@import "modules/forms";
-	@import "modules/tables";
-	@import "modules/widgets";
-	@import "modules/misc";
+@import "modules/buttons";
+@import "modules/dividers";
+@import "modules/forms";
+@import "modules/tables";
+@import "modules/widgets";
+@import "modules/misc";
 /*-----  End of 5.0 - Modules  ------*/
 /**
  *
@@ -221,19 +223,16 @@
 /*===================================
 =            6.0 - Theme            =
 ===================================*/
-	@import "theme/theme";
-	@import "theme/blog";
-	@import "theme/one-page";
-	@import "theme/single-post";
-	@import "theme/404";
-	@import "theme/contact";
-	@import "theme/typography";
-	@import "theme/columns";
-	@import "theme/common-elements";
-	@import "theme/icon";
-	@import "theme/interactive-elements";
-	@import "theme/media";
+@import "theme/theme";
+@import "theme/blog";
+@import "theme/one-page";
+@import "theme/single-post";
+@import "theme/404";
+@import "theme/contact";
+@import "theme/typography";
+@import "theme/columns";
+@import "theme/common-elements";
+@import "theme/icon";
+@import "theme/interactive-elements";
+@import "theme/media";
 /*-----  End of 6.0 - Theme  ------*/
-
-
-
