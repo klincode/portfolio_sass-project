@@ -1,10 +1,10 @@
 #counters-services {
   background-color: $color-bg-main !important;
-  transition: all 0.5s;
+  // transition: all 0.5s;
 }
 
-#counters-services i:hover {
-  transition: all 0.5s;
+#counters-services i {
+  transition: transform 0.5s;
 }
 
 #counters-services i:hover {
